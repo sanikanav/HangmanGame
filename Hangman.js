@@ -36,44 +36,44 @@ function checkGuess(charToFind){
 
 function updateHangman(){
   if (countWrong == 1){
-    document.getElementById("hangmanimg").innerHTML = "<img src = 'HPic2.png' height = '300' width = '330'>";
+    document.getElementById("hangmanimg").innerHTML = "<img src = 'HPic2.PNG' height = '300' width = '330'>";
     //All hangman progression images were created by me on Google Draw using the shape tool
   }
 
   else if (countWrong == 2){
-    document.getElementById("hangmanimg").innerHTML = "<img src = 'HPic3.png' height = '300' width = '330'>";
+    document.getElementById("hangmanimg").innerHTML = "<img src = 'HPic3.PNG' height = '300' width = '330'>";
   }
 
   else if (countWrong == 3){
-    document.getElementById("hangmanimg").innerHTML = "<img src = 'HPic4.png' height = '300' width = '330'>";
+    document.getElementById("hangmanimg").innerHTML = "<img src = 'HPic4.PNG' height = '300' width = '330'>";
   }
 
   else if (countWrong == 4){
-    document.getElementById("hangmanimg").innerHTML = "<img src = 'HPic5.png' height = '300' width = '330'>";
+    document.getElementById("hangmanimg").innerHTML = "<img src = 'HPic5.PNG' height = '300' width = '330'>";
   }
 
   else if (countWrong == 5){
-    document.getElementById("hangmanimg").innerHTML = "<img src = 'HPic6.png' height = '300' width = '330'>";
+    document.getElementById("hangmanimg").innerHTML = "<img src = 'HPic6.PNG' height = '300' width = '330'>";
   }
 
   else if (countWrong == 6){
-    document.getElementById("hangmanimg").innerHTML = "<img src = 'HPic7.png' height = '300' width = '330'>";
+    document.getElementById("hangmanimg").innerHTML = "<img src = 'HPic7.PNG' height = '300' width = '330'>";
   }
 
   else if (countWrong == 7){
-    document.getElementById("hangmanimg").innerHTML = "<img src = 'HPic8.png' height = '300' width = '330'>";
+    document.getElementById("hangmanimg").innerHTML = "<img src = 'HPic8.PNG' height = '300' width = '330'>";
   }
 
   else if (countWrong == 8){
-    document.getElementById("hangmanimg").innerHTML = "<img src = 'HPic9.png' height = '300' width = '330'>";
+    document.getElementById("hangmanimg").innerHTML = "<img src = 'HPic9.PNG' height = '300' width = '330'>";
   }
 
   else if (countWrong == 9){
-    document.getElementById("hangmanimg").innerHTML = "<img src = 'HPic10.png' height = '300' width = '330'>";
+    document.getElementById("hangmanimg").innerHTML = "<img src = 'HPic10.PNG' height = '300' width = '330'>";
   }
 
   else if (countWrong >= 10){
-    document.getElementById("hangmanimg").innerHTML = "<img src = 'HPic11.png' height = '300' width = '330'>";
+    document.getElementById("hangmanimg").innerHTML = "<img src = 'HPic11.PNG' height = '300' width = '330'>";
     document.getElementById("LostorWin").innerHTML = "YOU HAVE LOST!!";
   }
 }
