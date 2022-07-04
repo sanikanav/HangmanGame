@@ -1,0 +1,98 @@
+@font-face {
+  font-family: boldgaegu;
+  src: url(GaeguBold.ttf);
+}
+
+@font-face {
+  font-family: gaegu;
+  src: url(Gaegu.ttf);
+}
+
+body{
+  background-color: #0E4749;
+  color: white;
+}
+
+h1{
+  padding: 20px;
+  font-family: boldgaegu;
+  background-color: #002626;
+  color: white;
+}
+
+h3{
+  font-family: gaegu;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+p{
+  font-family: gaegu;
+  font-size: 20px;
+}
+
+#hangmanimg{
+  float:left;
+  margin-left: 130px;
+  margin-top: 30px;
+  border: 6px solid #95C623;
+}
+
+#info{
+  floar: left;
+  margin-right: 50px;
+}
+
+#button{
+  padding: 5px;
+  margin: 10px;
+  font-family: boldgaegu;
+  font-size: 15px;
+  background-color: #EFE7DA;
+  border: 6px solid #E55812;
+}
+
+#button:hover{
+  background-color: #DBD0BF;
+  font-size: 14px;
+}
+
+#start:hover{
+  background-color: #DBD0BF;
+  font-size: 14px;
+}
+
+#start{
+  padding: 10px;
+  margin: 10px;
+  font-family: boldgaegu;
+  font-size: 15px;
+  background-color: #EFE7DA;
+  border: 6px solid #E55812;
+}
+
+#instructions{
+  margin: 20px;
+}
+
+#LostorWin{
+  font-size: 30px;
+  font-weight: bolder;
+  color: #95C623;
+}
+
+#output2{
+  font-size: 20px;
+  font-weight: bolder;
+  color: #95C623;
+}
+
+#hint{
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+#filledarray{
+  font-family: gaegu;
+  font-size: 30px;
+}

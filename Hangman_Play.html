@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <title>Hangman Play!</title>
+    <link href = "Hangman.css" rel = "stylesheet">
+    <script src = "Hangman.js"> </script>
+    <link rel = "icon" href = "hangmanfavicon2.png">
+    <!--Favicon image from Share Icon, image title: "sports, urban, stick man, dancer, Dancing, sport, exercise icon"-->
+  </head>
+  <body>
+    <center>
+    <h1>Hangman - Play</h1>
+    <p id = "LostorWin"><p>
+
+
+    <div id = "hangmanimg">
+    <img src = "HPic1.png" height = "300" width = "330" >
+    </div>
+    <div id = "info">
+
+
+    <p> Enter your letter </p>
+    <input type = "textbox" id = "userguess">
+    <input type = "button"  value = "ENTER" onclick = "getValue()" id = "button">
+
+    <p id = "filledarray"> __ , __ , __ , __ </p>
+    <p id = "usedletters"> Letters that have not worked: <p>
+    <p id = "output2"> FOUND? <p>
+
+
+      <input type = "button"  value = "HINT" onclick = "hint()" id = "button">
+      <input type = "button"  value = "HOME" onclick = "location.href = 'Index.html';" id = "button">
+    <br>
+      <p id = "hint"><p>
+    <br>
+    </div>
+    </center>
+  </body>
+</html>
